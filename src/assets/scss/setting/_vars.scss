@@ -1,0 +1,36 @@
+:root {
+    --mainEng-font:"Epilogue";
+    --mainKor-font:"Noto Sans KR";
+    --mainNum-font:"Epilogue";  
+
+    --mainBg-color:#2a2b2c;
+    --subBg100: ;
+    --subBg200: ;
+    --subBg300: ;
+    --subBg400: ;
+    --subBG500: ;
+
+    --white: #fff;
+    --black: #2a2b2c;
+    --black100: ;
+    --black200: ;
+    --black300: ;
+    --black300: ;
+    --black400: ;
+
+    font-family: var(--mainEng-font), var(--mainKor-font);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%; /* 아이폰 가로모드 폰트 사이즈 키우기 사용금지 */
+
+    @media(max-width: 800px) {
+        font-size:14px;
+        line-height:1.4;
+    }
+}

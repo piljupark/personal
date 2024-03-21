@@ -1,19 +1,16 @@
-//import logo from './logo.svg';
-import './App.css';
 import React from "react";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-function App() {
+import HomeView from "./views/HomeView";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hello, FUCKING WORLD
-        </p>
-        
-          
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomeView />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
