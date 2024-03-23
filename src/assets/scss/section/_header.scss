@@ -1,52 +1,61 @@
 #header {
     @include position-fixed;
     z-index: 10000;
+    padding:1rem;
+    
 }
 
 .header__inner{
     @include flex-between;
     background-color: rgba(116,99,99,0.1);
     backdrop-filter: blur(15px);
-    padding:1rem;
+    padding:2rem 1rem;
+    border-radius: 10px;
 
     .header__logo{
-        font-size: 10px;
+        font-size: 1rem;
         display: block;
         color: var(--black);
     }
 }
 
-.hedaer_nav{
+.header__nav{
     @media (max-width: 800px) {
         display: none;
 
-        &show {
+        &.show {
             display: block;
 
             ul {
                 display: block;
                 position: absolute;
                 right: 0;
-                top:68px;
-                background-color: rgba(116,99,99,0.1);
+                top:100px;
+                width:50%;
+                min-width: 150px;
+                height:100vh;
+                padding:20px 0;
+                border-radius: 10px;
+                background-color: rgba(77, 64, 64, 0.1);
                 backdrop-filter: blur(15px);
                 z-index: 10000;
-                min-width: 150px;
-                padding:20px 0;
 
                 li {
                     display: block;
-                    text-align: right;
+                    text-align: left;
 
                     a {
                         display: inline-block;
-                        padding: 10px;
+                        padding: 1rem;
+                        font-size: 3rem;
+                        font-weight: 300;
+                        text-transform: inherit;
                     }
                 }
             }
         }
 
-        &.show + .hedaer__nav__mobile span::before {
+        &.show + .header__nav__mobile span::before {
             width: 20px;
         }
 
@@ -61,8 +70,9 @@
         a {
             position: relative;
             text-transform: uppercase;
-            font-size: 14px;
+            font-size: 0.9rem;
             padding: 14px;
+            font-weight: 400;
 
             &::before {
                 position: absolute;

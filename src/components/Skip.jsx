@@ -1,7 +1,7 @@
-import React from "react";
+import React from "react"
 
 const Skip = () => {
     return <div> Skip </div>;
 };
 
-export default Skip;
+export default Skip

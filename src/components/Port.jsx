@@ -1,7 +1,7 @@
-import React from "react";
+import React from "react"
 
 const Port = () => {
     return <div> Port </div>;
 };
 
-export default Port;
+export default Port

@@ -1,24 +1,24 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 
 const headerNav = [
     {
-        title: "intro",
+        title: "Intro",
         url: "#intro",
     },
     {
-        title: "skill",
+        title: "Skill",
         url: "#skill",
     },
     {
-        title: "site",
+        title: "Site",
         url: "#site",
     },
     {
-        title: "portfolio",
+        title: "Portfolio",
         url: "#port",
     },
     {
-        title: "contact",
+        title: "Contact",
         url: "#contact",
     }
 ];
@@ -35,7 +35,7 @@ const Header = () => {
         <header id="header" role="banner">
             <div className="header__inner">
                 <div className="header__logo">
-                    <a href="/">portfolio <em>vite</em></a>
+                    <a href="/">Hello, Everyone</a>
                 </div>
                 <nav className={`header__nav ${show ? "show" : ""}`} role="navigation" aria-label="메인 메뉴">
                     <ul>
@@ -71,4 +71,4 @@ const Header = () => {
 
 
 
-export default Header;
+export default Header
