@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 
 const headerNav = [
     {
@@ -71,4 +71,4 @@ const Header = () => {
 
 
 
-export default Header
+export default Header;
