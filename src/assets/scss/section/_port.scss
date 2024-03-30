@@ -14,7 +14,7 @@
         font-size: 4vw;
         font-weight: 900;
         line-height: 1.6;
-        font-family: var (--mainKor-font);
+        font-family: var(--mainEng-font);
         text-transform: uppercase;
         color: var(--black);
         border-bottom:0.4vw solid var(--black100);
@@ -22,6 +22,7 @@
         text-indent: -0.26vw;
 
         em{
+            font-family: var(--mainKor-font);
             font-size: 1.25rem;
             font-weight: 400;
             line-height: 2;
@@ -34,11 +35,12 @@
         width: 7000px;
 
         .port__item {
-            width: 500px;
+            width: 700px;
             height: 70vh;
             background-color: var(--subBg100);
             padding: 2.5rem;
             margin-right: 20px;
+            border-radius: 10px;
 
             &.p1 {
                 background-color: var(--subBg100);
@@ -99,10 +101,12 @@
                 padding: 0.625rem 1.5rem;
                 margin-top: 1.5rem;
                 transition: all 0.2s;
+                border-radius: 5px;
 
                 &:hover {
                     background-color: var(--black100);
                     color: var(--white);
+                    font-weight: 600;
                 }
             }
         }
