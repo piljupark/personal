@@ -1,27 +1,6 @@
 import React, { useState } from "react";
 
-const headerNav = [
-    {
-        title: "Intro",
-        url: "#intro",
-    },
-    {
-        title: "Skill",
-        url: "#skill",
-    },
-    {
-        title: "Site",
-        url: "#site",
-    },
-    {
-        title: "Portfolio",
-        url: "#port",
-    },
-    {
-        title: "Contact",
-        url: "#contact",
-    }
-];
+import { headerNav } from "../constants";
 
 const Header = () => {
 

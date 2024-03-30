@@ -1,15 +1,6 @@
 import React from "react";
 
-const contactText = [
-    {
-        link: "https://open.kakao.com/o/seLkjejg",
-        title: "KAKAO : PILJU PARK",
-    },
-    {
-        link: "mailto:pilpark25@gmail.com",
-        title: "mail : pilpark25@gmail.com",
-    },
-];
+import { contactText } from "../constants";
 
 const Contact = () => {
 

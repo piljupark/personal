@@ -1,22 +1,6 @@
 import React from "react";
 
-const footerText = [
-    {
-        title: "youtube",
-        desc: "유튜브로 더 많은 영상을 보실 수 있습니다.",
-        link: "youtube.com",
-    },
-    {
-        title: "github",
-        desc: "깃헙에 제 소스를 보실 수 있습니다.",
-        link: "youtube.com",
-    },
-    {
-        title: "react",
-        desc: "리액트로 제작하는 프로덕트입니다.",
-        link: "youtube.com",
-    },
-];
+import { footerText } from "../constants";
 
 const Footer = () => {
     return (
