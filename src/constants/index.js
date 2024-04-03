@@ -27,7 +27,7 @@ export const headerNav = [
 
 export const introText = {
     title: "port developer",
-    desc: ["talent is", "found at the end of the", "effort"],
+    desc: ["Intuitive and", "comportable"],
 };
 
 export const skillText = [
@@ -112,20 +112,26 @@ export const contactText = [
     },
 ];
 
+export const footerContactText = [
+    {
+        link: "https://open.kakao.com/o/seLkjejg",
+        title: "kakaotalk",
+    },
+    {
+        link: "mailto:pilpark25@gmail.com",
+        title: "pilpark25@gmail.com",
+    },
+];
+
 export const footerText = [
     {
-        title: "youtube",
-        desc: "유튜브로 더 많은 영상을 보실 수 있습니다.",
-        link: "youtube.com",
+        title: "notion",
+        desc: "제가 기록한 내용들을 보실 수 있습니다.",
+        link: "https://www.notion.so/Default-d0357f16515b4c34a13bf103b6e46bbf",
     },
     {
         title: "github",
         desc: "깃헙에 제 소스를 보실 수 있습니다.",
-        link: "youtube.com",
-    },
-    {
-        title: "react",
-        desc: "리액트로 제작하는 프로덕트입니다.",
-        link: "youtube.com",
+        link: "https://www.github.com/piljupark",
     },
 ];

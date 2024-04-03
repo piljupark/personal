@@ -1,82 +1,67 @@
 #footer {
-    font-family: var(--mainKor-font);
+    font-family: var(--mainEng-font);
 }
 
 .footer__inner {
-    padding: 16px;
-
-    .footer__text {
-        font-size: 12px;
-        text-transform: uppercase;
-        border-top: 1px solid var(--black);
-        border-bottom: 1px solid var(--black);
-        display: flex;
-        justify-content: space-between;
-    }
+    padding: 2rem;
+    margin-top:200px;
+    background-color: #B5BBAF;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 
     .footer__info {
         display: flex;
         justify-content: space-between;
-        margin: 100px 0;
-
+        padding: 50px 0;
         @media (max-width: 800px) {
             flex-direction: column;
         }
 
         .left {
-            width:40%;
+            width:calc(50% - 10px);
 
             @media (max-width: 800px) {
                 width: 100%;
             }
 
             .title {
-                border-top: 2px solid var(--black);
-                border-bottom: 1px solid var(--black);
                 padding: 20px 0;
                 text-transform: uppercase;
-                font-weight: 700;
+                font-weight: 500;
                 transition: all 0.3s;
-
-                &:hover {
-                    background-color: var(--black400);
-                    padding-left: 10px;
-                    border-color: transparent;
-                }
+                font-size: 2rem;
             }
 
-            .desc {
-                font-size: 12px;
-                padding-top: 20px;
-
-                @media (max-width: 800px) {
-                    margin-bottom: 40px;
-                }
+            .left__wrap {
+                display: flex;
+                flex-direction: column;
+                row-gap: 15px;
+                text-transform: uppercase;
             }
         }
 
         .right {
-            width: 50%;
+            width: calc(50% - 10px);
 
             @media (max-width: 800px) {
                 width: 100%;
+                margin-top: 50px;
             }
 
-            h3 {
-                border-top: 2px solid var(--black);
-                font-size: 10px;
-                margin-bottom: 40px;
-                padding-top: 10px;
+            .title {
+                padding: 20px 0;
+                text-transform: uppercase;
+                font-weight: 500;
+                transition: all 0.3s;
+                font-size: 2rem;
             }
 
             ul {
-                border-top: 1px solid var(--black);
-
+                display: flex;
+                flex-direction: column;
+                row-gap: 15px;
                 li {
-                    border-bottom: 1px solid var(--black);
-
                     a {
-                        padding: 14px 0;
                         font-size: 14px;
                         display: inline-block;
                         text-transform: uppercase;
@@ -104,6 +89,6 @@
         text-align: center;
         text-transform: uppercase;
         font-size: 12px;
-        margin-bottom: 20px;
+        margin-top: 40px;
     }
 }
