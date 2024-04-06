@@ -8,6 +8,7 @@ const Intro = () => {
     return (
         <section id="intro">
             <div className="intro__inner">
+                <h1 className="intro__title">Simple as it looks. <br/>for the Front-End</h1>
                 {/* 
                 <h1 className="intro__title">{introText.title}</h1>
                 <div className="intro__lines" aria-hidden="true">

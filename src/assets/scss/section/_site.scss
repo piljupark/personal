@@ -3,17 +3,16 @@
 
     .site__title {
         position: sticky;
-        top: 70px;
+        top: 120px;
         left: 0;
         width: 70%;
         height: 5vw;
         font-size: 4vw;
-        font-weight: 900;
+        font-weight: 600;
         line-height: 1.6;
-        font-family: var(--mainKor-font);
+        font-family: var(--mainEng-font);
         text-transform: uppercase;
         color: var(--black);
-        border-bottom: 0.4vw solid var(--black);
         margin-bottom: 100px;
 
         @media (max-width: 800px) {
@@ -21,16 +20,11 @@
             margin-bottom: 10vw;
             font-size: 30px;
             height: auto;
-            top: 68px;
+            top: 120px;
             z-index: 1000;
-            background-color: var(--mainBg-color);
+            
         }
 
-        em {
-            font-size: 1.25rem;
-            font-weight: 400;
-            line-height: 2;
-        }
     }
 
     .site__wrap {

@@ -37,18 +37,20 @@
             display: block;
 
             ul {
-                display: block;
                 position: absolute;
+                display: block;
+                display: grid;
+                align-items: end;
+                align-content: end;
+                justify-items: end;
                 right: 0;
-                top:100px;
-                width:50%;
+                top:0px;
+                width: calc(100vw - 2rem);
                 min-width: 150px;
-                height:100vh;
-                padding:20px 0;
+                height: calc(100vh - 2rem);
                 border-radius: 10px;
-                background-color: rgba(77, 64, 64, 0.1);
-                -webkit-backdrop-filter: blur(15px);
-                backdrop-filter: blur(15px);
+                background-color: #c3c9bd;
+                border:4px solid #b5bbaf;
                 z-index: 10000;
 
                 li {
@@ -58,7 +60,7 @@
                     a {
                         display: inline-block;
                         padding: 1rem;
-                        font-size: 3rem;
+                        font-size: 1.5rem;
                         font-weight: 300;
                         text-transform: inherit;
                     }
@@ -109,6 +111,7 @@
     width:40px;
     height:40px;
     cursor:pointer;
+    z-index: 10001;
 
     @media(max-width:800px) {
         display: block;
