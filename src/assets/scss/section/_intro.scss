@@ -20,8 +20,8 @@
         font-size: clamp(16px, 10vw, 70px);
         line-height: 1.5;
         white-space: nowrap;
-        text-indent: -0.3rem;
-        letter-spacing: -0.3rem;
+        
+        letter-spacing: -0.2rem;
 
         @media (max-width:320px) {
             display: none;
