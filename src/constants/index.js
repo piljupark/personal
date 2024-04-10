@@ -75,7 +75,7 @@ export const portText = [
     {
         num: "01",
         title: "인트로",
-        desc: "저를 잘 표현할 수 있도록 표현한 포트폴리오입니다.",
+        desc: "HTML5, CSS3, JavaScript",
         img: port01,
         code: "https://piljupark.github.io/officialwork/index.html",
         view: "https://piljupark.github.io/officialwork/index.html",
@@ -84,7 +84,7 @@ export const portText = [
     {
         num: "02",
         title: "WebGL을 이용한 포트폴리오",
-        desc: "WebGL을 활용하여 제작한 포트폴리오로",
+        desc: "HTML5, CSS3, JavaScript, WebGL",
         img: port02,
         code: "dorea.kr",
         view: "dorea.kr",
@@ -93,7 +93,7 @@ export const portText = [
     {
         num: "03",
         title: "더욱 친근하게 다가갈 수 있는 청소업체",
-        desc: "청소업체 홈페이지로 대중에게 더욱 친근하게 다가갈 수 있도록 제작하였습니다.",
+        desc: "HTML5, CSS3",
         img: port03,
         code: "https://pilpark25.cafe24.com",
         view: "https://pilpark25.cafe24.com",

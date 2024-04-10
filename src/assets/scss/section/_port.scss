@@ -22,48 +22,59 @@
     }
 
     .port__wrap {
-        display: flex;
-        flex-wrap: wrap;
-        width: 7000px;
+        display: grid;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        grid-auto-flow: row;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        overflow: hidden;
+
+        @media (max-width: 800px) {
+            grid-template-columns: 1fr;
+        }
+        
 
         .port__item {
-            width: 500px;
-            height: 70vh;
-            background-color: var(--subBg100);
-            padding: 2.5rem;
-            margin-right: 20px;
-            border-radius: 10px;
+            position: relative;
+            border-radius: 1.5rem;
+            overflow: hidden;
 
             &.p1 {
-                background-color: var(--subBg100);
+                .img {
+                    
+                }
             }
 
             &.p2 {
-                background-color: var(--subBg200);
+                
+                .desc {
+                    color:var(--white);
+                }
             }
 
             &.p3 {
-                background-color: var(--subBg300);
+                
+                
             }
 
             .num {
-                font-size: 2rem;
+                font-size: 3rem;
                 font-family: var(--subEng-font);
+                display: none;
             }
 
             .img {
-                display: block;
-                margin-top: -20px;
-                transition: margin-top 0.3s;
-
+                
+                
                 img {
-                    border-radius: 5px;
-                    filter: saturate(0%);
-                    transition: all 0.3s;
+                    width:160%;
+                    margin-left:-25%;
+                    vertical-align: middle;
                 }
 
                 &:hover {
-                    margin-top: 0;
 
                     img {
                         filter: saturate(100%);
@@ -80,10 +91,16 @@
                 color: var(--black100);
                 border-bottom: 2px solid var(--black100);
                 margin-bottom: 1rem;
+                display: none;
             }
 
             .desc {
-                font-size: 1rem;
+                position: absolute;
+                bottom:0;
+                padding:1rem;
+                font-size: 1.5rem;
+                font-weight: 500;
+                font-family: var(--mainEng-font);
             }
 
             .site {
@@ -94,6 +111,7 @@
                 margin-top: 1.5rem;
                 transition: all 0.2s;
                 border-radius: 5px;
+                display: none;
 
                 &:hover {
                     background-color: var(--black100);

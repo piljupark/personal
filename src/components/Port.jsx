@@ -1,43 +1,14 @@
-import React, { useEffect, useRef } from "react";
-
+//import React, { useEffect, useRef } from "react";
+import React from "react";
 import { portText } from "../constants";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+//import { gsap } from "gsap";
+//import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Port = () => {
 
-    const horizontalRef = useRef(null);
-    const sectionRef = useRef([]);
-
-    useEffect(() => {
-        gsap.registerPlugin(ScrollTrigger);
-
-        const horizontal = horizontalRef.current;
-        const sections = sectionRef.current;
-
-        let scrollTween = gsap.to(sections, {
-            xPercent: -120 * (sections.length - 1),
-            ease: "none",
-            scrollTrigger: {
-                trigger: horizontal,
-                start: "top 110px",
-                end: () => "+=" + horizontal.offsetWidth,
-                pin: true,
-                scrub: 1,
-                markers: false,
-                invalidateOnRefresh: true,
-                anticipatePin: 1,
-            }
-        })
-
-        return () => {
-            scrollTween.kill();
-        };
-    }, []);
-
 
     return (
-        <section id="port" ref={horizontalRef}>
+        <section id="port">
             <div className="port__inner">
                 <h2 className="port__title">
                     portfolio
@@ -47,7 +18,7 @@ const Port = () => {
                         <article 
                             className={`port__item p${key+1}`} 
                             key={key}
-                            ref={(el) => (sectionRef.current[key] = el)}
+                            
                         >
                             <span className="num">{port.num}.</span>
                             <a 
