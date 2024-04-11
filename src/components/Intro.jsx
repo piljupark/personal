@@ -32,7 +32,9 @@ const Intro = () => {
                         allowfullscreen>
                     </iframe>
 
-                    <video src="/videos/video-2.mp4" loop autoPlay muted/>
+                    <video loop autoPlay muted>
+                        <source src="/videos/video-2.mp4" type="video/mp4"/>
+                    </video>
                 </div>
                 
                 
