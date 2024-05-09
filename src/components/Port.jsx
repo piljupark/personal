@@ -11,7 +11,7 @@ const Port = () => {
         <section id="port">
             <div className="port__inner">
                 <h2 className="port__title">
-                    portfolio
+                    Projects
                 </h2>
                 <div className="port__wrap">
                     {portText.map((port, key) => (

@@ -6,39 +6,44 @@
 
 .port__inner {
     padding: 16px; 
+    display: flex;
 
+    @media (max-width: 800px) {
+        display: block;
+    }
 
     .port__title {
         width: 100%;
         height: 5vw; 
-        font-size: 4vw;
-        font-weight: 600;
+        font-size: clamp(16px, 4vw, 30px);
+        font-weight: 500;
         line-height: 1.6;
         font-family: var(--mainEng-font);
-        text-transform: uppercase;
+        text-transform: inherit;
         color: var(--black);
         margin-bottom: 16px;
         text-indent: -0.26vw;
     }
 
     .port__wrap {
+        width: 180vw;
         display: grid;
         grid-row-gap: 10px;
         grid-column-gap: 10px;
         grid-auto-flow: row;
         grid-auto-rows: 1fr;
-        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
         overflow: hidden;
 
         @media (max-width: 800px) {
-            grid-template-columns: 1fr;
+            width: 100%;
         }
         
 
         .port__item {
             position: relative;
-            border-radius: 1.5rem;
+            padding-top: 20px;
+            border-top: 1px solid #1b1b1b;
             overflow: hidden;
 
             &.p1 {
@@ -81,27 +86,30 @@
 
 
             .title {
-                font-size: 1.5rem;
-                text-align: center;
-                padding: 0.8rem 0;
-                font-weight: 700;
-                color: var(--black100);
-                border-bottom: 2px solid var(--black100);
                 margin-bottom: 1rem;
-                display: none;
+                padding: 0.8rem 0;
+                font-family: 'SUIT Variable', sans-serif;
+                font-size: 1rem;
+                color: var(--black100);
+                text-align: justify;
+                font-weight: 700;
+                line-height: 1.5;
+                
+                @media (max-width: 800px) {
+                    font-size: 14px;
+                }
             }
 
             .desc {
                 position: absolute;
-                top:20px;
-                left:20px;
+                top:30px;
+                left:10px;
                 padding:0.5rem 0.8rem;
                 color:var(--white);
                 font-size: 0.7rem;
                 font-weight: 500;
                 font-family: var(--subEng2-font);
                 background-color: rgba(0,0,0,0.2);
-                border-radius: 2rem;
                 backdrop-filter: blur(2px);
             }
 
