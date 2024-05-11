@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Skill from "../components/Skill";
 import Port from "../components/Port";
-import Site from "../components/Site";
+import Video from "../components/Video";
 // import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Skip from "../components/Skip";
@@ -17,7 +17,7 @@ const HomeView = () => {
             <Main>
                 <Intro />
                 <Skill />
-                <Site />
+                <Video />
                 <Port />
                 {/*<Contact />*/}
             </Main>

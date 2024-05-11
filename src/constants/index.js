@@ -1,6 +1,7 @@
-import port01 from "../assets/img/port01.png";
-import port02 from "../assets/img/port02.png";
-import port03 from "../assets/img/port03.png";
+import port01 from "../assets/img/port01.jpg";
+import port02 from "../assets/img/port02.jpg";
+import port03 from "../assets/img/port03.jpg";
+import port04 from "../assets/img/port04.jpg";
 
 export const headerNav = [
     {
@@ -45,31 +46,6 @@ export const skillText = [
     },
 ];
 
-export const siteText = [
-    {
-        text: ["make", "site complitant with", "webstandard"],
-        title: "비트를 이용한 사이트 제작",
-        code: "https://dorea.kr",
-        view: "https://dorea.kr",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, CSS Variable",
-        ],
-    },
-    {
-        text: ["make", "site complitant with", "react.js"],
-        title: "리액트를 이용한 사이트 제작",
-        code: "https://dorea.kr",
-        view: "https://dorea.kr",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, CSS Variable, React",
-        ],
-    },
-
-];
 
 export const portText = [
     {
@@ -97,6 +73,15 @@ export const portText = [
         img: port03,
         code: "https://pilpark25.cafe24.com",
         view: "https://pilpark25.cafe24.com",
+        name: "박필주 포트폴리오"
+    },
+    {
+        num: "04",
+        title: "토브 더 가먼트 기업 페이지",
+        desc: "HTML5, CSS3",
+        img: port04,
+        code: "https://drive.google.com/file/d/1uU5Ua07ifD9Sn2SoWMLEXR4MLRQLJyuk/view?usp=sharing",
+        view: "https://drive.google.com/file/d/1uU5Ua07ifD9Sn2SoWMLEXR4MLRQLJyuk/view?usp=sharing",
         name: "박필주 포트폴리오"
     },
 ];

@@ -1,0 +1,16 @@
+#video {
+    position: relative;
+    display: flex;
+}
+
+#video iframe {
+    width: 100%;
+}
+
+.video-container {
+    pointer-events: none;
+}
+
+.video-container iframe {
+    pointer-events: auto;
+}

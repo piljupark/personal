@@ -1,16 +1,15 @@
 #intro {
-    height: 100vh;
+    height: auto;
 }
 
 .intro__inner{
     width: 100%;
-    height: 100%;
+    padding: 20px;
+    margin-top: 200px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    padding: 16px;
-    margin-top: 200px;
-
+    
     @media (max-width: 800px) {
         justify-content: center;
         margin-top:0;
@@ -29,13 +28,13 @@
             width:100%;
             height:100%;
             border-radius: 1.5rem;
-            display: none;
         }
 
         video {
             position: relative;
             width:100%;
             border-radius: 1.5rem;
+            display: none;
         }
     }
 

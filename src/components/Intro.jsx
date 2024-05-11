@@ -24,7 +24,7 @@ const Intro = () => {
                     <iframe 
                         width="100%" 
                         height="100%" 
-                        src="https://www.youtube.com/embed/_BM816dXYPE?rel=0&vq=hd720&controls=0&autoplay=1&mute=1&loop=1&playlist=_BM816dXYPE" 
+                        src="https://player.vimeo.com/video/945203743?autoplay=1&muted=1&loop=1" 
                         title="YouTube video player" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -48,18 +48,6 @@ const Intro = () => {
                         <img src={about} alt="어바웃" />
                     </div>
                 </div>
-                
-                {/* 
-                <div className="intro__lines bottom" aria-hidden="true">
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                </div>
-                */}
             </div>
         </section>
     );
