@@ -2,6 +2,7 @@ import port01 from "../assets/img/port01.jpg";
 import port02 from "../assets/img/port02.jpg";
 import port03 from "../assets/img/port03.jpg";
 import port04 from "../assets/img/port04.jpg";
+import port05 from "../assets/img/port05.jpg";
 
 export const headerNav = [
     {
@@ -82,6 +83,15 @@ export const portText = [
         img: port04,
         code: "https://drive.google.com/file/d/1uU5Ua07ifD9Sn2SoWMLEXR4MLRQLJyuk/view?usp=sharing",
         view: "https://drive.google.com/file/d/1uU5Ua07ifD9Sn2SoWMLEXR4MLRQLJyuk/view?usp=sharing",
+        name: "박필주 포트폴리오"
+    },
+    {
+        num: "05",
+        title: "S&D STUDIO",
+        desc: "HTML5, CSS3",
+        img: port05,
+        code: "sndofficial.com",
+        view: "sndofficial.com",
         name: "박필주 포트폴리오"
     },
 ];

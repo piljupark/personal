@@ -13,14 +13,14 @@
         display: flex;
         justify-content: space-between;
         padding: 50px 0;
-        @media (max-width: 800px) {
+        @media (max-width: 768px) {
             flex-direction: column;
         }
 
         .left {
             width:calc(50% - 10px);
 
-            @media (max-width: 800px) {
+            @media (max-width: 768px) {
                 width: 100%;
             }
 
@@ -43,7 +43,7 @@
         .right {
             width: calc(50% - 10px);
 
-            @media (max-width: 800px) {
+            @media (max-width: 768x) {
                 width: 100%;
                 margin-top: 50px;
             }

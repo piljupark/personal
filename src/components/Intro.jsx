@@ -8,33 +8,16 @@ const Intro = () => {
         <section id="intro">
             <div className="intro__inner">
                 <h1 className="intro__title">Simple as it looks. <br/>for the Front-End</h1>
-                {/* 
-                <h1 className="intro__title">{introText.title}</h1>
-                <div className="intro__lines" aria-hidden="true">
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                </div>
-                */}
                 <div className="video__wrapper">
                     <iframe 
-                        width="100%" 
-                        height="100%" 
+                        width="1920"
+                        height="1080"
                         src="https://player.vimeo.com/video/945203743?autoplay=1&muted=1&loop=1" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        referrerpolicy="strict-origin-when-cross-origin" 
-                        allowfullscreen>
+                        title="Vimeo video player" 
+                        allow="autoplay; fullscreen" 
+                        frameBorder="0"
+                        allowFullScreen>
                     </iframe>
-
-                    <video loop autoPlay muted>
-                        <source src="/videos/video-2.mp4" type="video/mp4"/>
-                    </video>
                 </div>
                 
                 
