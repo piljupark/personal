@@ -5,7 +5,7 @@
 }
 
 .port__inner {
-    padding: 20px; 
+    padding: var(--layout-horizontal-padding); 
     display: flex;
 
     @media (max-width: 768px) {

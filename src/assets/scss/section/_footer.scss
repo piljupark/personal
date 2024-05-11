@@ -3,7 +3,7 @@
 }
 
 .footer__inner {
-    padding: 2rem;
+    padding: var(--layout-horizontal-padding);
     margin-top:200px;
     background-color: #B5BBAF;
     border-top-left-radius: 2rem;

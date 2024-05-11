@@ -30,7 +30,11 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%; /* 아이폰 가로모드 폰트 사이즈 키우기 사용금지 */
 
-    @media(max-width: 800px) {
+    --layout-horizontal-padding: 20px;
+
+    @media(max-width: 768px) {
+        --layout-horizontal-padding: 10px;
+
         font-size:14px;
         line-height:1.4;
     }
