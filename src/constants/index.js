@@ -60,7 +60,7 @@ export const portText = [
     },
     {
         num: "02",
-        title: "WebGL을 이용한 포트폴리오",
+        title: "도레아",
         desc: "HTML5, CSS3, JavaScript, WebGL",
         img: port02,
         code: "dorea.kr",
@@ -69,7 +69,8 @@ export const portText = [
     },
     {
         num: "03",
-        title: "청소가인은 기존의 청소 업체의 딱딱한 이미지를 벗어나, 쾌활하고 명랑한 분위기를 담은 홈페이지를 제작하였습니다. 밝은 분위기를 느낄 수 있도록 파스텔톤 색상과 도형을 이용하여 타 청소 업체와는 달리 보일 수 있도록 하는 접근성을 포인트로 하였습니다. ",
+        //title: "청소가인은 기존의 청소 업체의 딱딱한 이미지를 벗어나, 쾌활하고 명랑한 분위기를 담은 홈페이지를 제작하였습니다. 밝은 분위기를 느낄 수 있도록 파스텔톤 색상과 도형을 이용하여 타 청소 업체와는 달리 보일 수 있도록 하는 접근성을 포인트로 하였습니다. ",
+        title: "청소가인",
         desc: "HTML5, CSS3",
         img: port03,
         code: "https://pilpark25.cafe24.com",
@@ -78,7 +79,7 @@ export const portText = [
     },
     {
         num: "04",
-        title: "토브 더 가먼트 기업 페이지",
+        title: "토브 더 가먼트 메이커",
         desc: "HTML5, CSS3",
         img: port04,
         code: "https://drive.google.com/file/d/1uU5Ua07ifD9Sn2SoWMLEXR4MLRQLJyuk/view?usp=sharing",
@@ -87,7 +88,7 @@ export const portText = [
     },
     {
         num: "05",
-        title: "S&D STUDIO",
+        title: "에스앤디 스튜디오",
         desc: "HTML5, CSS3",
         img: port05,
         code: "sndofficial.com",
