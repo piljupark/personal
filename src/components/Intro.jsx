@@ -7,12 +7,12 @@ const Intro = () => {
     return (
         <section id="intro">
             <div className="intro__inner">
-                <h1 className="intro__title">Simple as it looks. <br/>for the Front-End</h1>
+                <h1 className="intro__title">Simple as it looks. <br/>for the Simplicity.</h1>
                 <div className="video__wrapper">
                     <iframe 
                         width="1920"
                         height="1080"
-                        src="https://player.vimeo.com/video/945203743?autoplay=1&muted=1&loop=1" 
+                        src="https://player.vimeo.com/video/945203743?autoplay=1&muted=1&loop=1&controls=0" 
                         title="Vimeo video player" 
                         allow="autoplay; fullscreen" 
                         frameBorder="0"

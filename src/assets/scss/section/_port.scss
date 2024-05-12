@@ -14,14 +14,13 @@
 
     .port__title {
         width: 100%;
-        height: 5vw; 
-        font-size: clamp(16px, 4vw, 30px);
+        margin-bottom: 10px;
+        font-size: clamp(20px, 4vw, 30px);
         font-weight: 500;
         line-height: 1.6;
         font-family: var(--mainEng-font);
         text-transform: inherit;
         color: var(--black);
-        margin-bottom: 16px;
         text-indent: -0.26vw;
     }
 

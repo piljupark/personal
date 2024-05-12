@@ -10,9 +10,9 @@ function Video({ videoId }) {
           width="1920"
           height="1080"
           title="Vimeo Video add"
-          frameborder="0"
+          frameBorder="0"
           allow="autoplay; fullscreen"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </section>
     );
