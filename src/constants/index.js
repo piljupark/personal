@@ -63,8 +63,8 @@ export const portText = [
         title: "도레아",
         desc: "HTML5, CSS3, JavaScript, WebGL",
         img: port02,
-        code: "dorea.kr",
-        view: "dorea.kr",
+        code: "https://dorea.kr",
+        view: "https://dorea.kr",
         name: "박필주 포트폴리오"
     },
     {
