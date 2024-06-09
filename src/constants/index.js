@@ -91,8 +91,8 @@ export const portText = [
         title: "에스앤디 스튜디오",
         desc: "HTML5, CSS3",
         img: port05,
-        code: "sndofficial.com",
-        view: "sndofficial.com",
+        code: "https://sndofficial.com",
+        view: "https://sndofficial.com",
         name: "박필주 포트폴리오"
     },
 ];
